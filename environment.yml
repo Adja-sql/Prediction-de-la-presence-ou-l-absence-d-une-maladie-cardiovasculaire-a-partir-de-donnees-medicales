@@ -1,0 +1,21 @@
+name: projet_datascience_2025
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11
+  - ipykernel
+  - jupyterlab
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - xgboost
+  - lightgbm
+  - graphviz
+  - jupyter
+  - pip
+  - pip:
+      - shap
+      - category_encoders
